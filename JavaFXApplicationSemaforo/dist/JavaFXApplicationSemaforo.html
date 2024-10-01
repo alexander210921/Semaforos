@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'JavaFXApplicationSemaforo.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iSmF2YUZYQXBwbGljYXRpb25TZW1hZm9yby5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5KYXZhRlhBcHBsaWNhdGlvblNlbWFmb3JvPC90aXRsZT4NCiAgICA8dmVuZG9yPmFsZXhhPC92ZW5kb3I+DQogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9IkphdmFGWEFwcGxpY2F0aW9uU2VtYWZvcm8uamFyIiBzaXplPSI3MTc2NiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGphdmFmeC1zd3QuamFyIiBzaXplPSIzNzA4MiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGphdmFmeC5iYXNlLmphciIgc2l6ZT0iNzU2NTY2IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamF2YWZ4LmNvbnRyb2xzLmphciIgc2l6ZT0iMjYwNTgyOSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGphdmFmeC5meG1sLmphciIgc2l6ZT0iMTMwNjA1IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamF2YWZ4LmdyYXBoaWNzLmphciIgc2l6ZT0iNDM2OTg0OSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGphdmFmeC5tZWRpYS5qYXIiIHNpemU9IjI4NDYxNSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGphdmFmeC5zd2luZy5qYXIiIHNpemU9IjkxMTY1IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamF2YWZ4LndlYi5qYXIiIHNpemU9IjcyODUxOCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXG1zc3FsLWpkYmMtMTIuOC4xLmpyZTgtamF2YWRvYy5qYXIiIHNpemU9IjEyNjIzMTYiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxtc3NxbC1qZGJjLTEyLjguMS5qcmU4LXNvdXJjZXMuamFyIiBzaXplPSI5ODY4NzMiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxtc3NxbC1qZGJjLTEyLjguMS5qcmU4LmphciIgc2l6ZT0iMTQ2NDA2OCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9IkNydWNlU2VtYWZvcm9zRlgiICBuYW1lPSJKYXZhRlhBcHBsaWNhdGlvblNlbWFmb3JvIiAvPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedCruceSemaforosFX() {
+        dtjava.embed(
+            {
+                id : 'CruceSemaforosFX',
+                url : 'JavaFXApplicationSemaforo.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iSmF2YUZYQXBwbGljYXRpb25TZW1hZm9yby5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5KYXZhRlhBcHBsaWNhdGlvblNlbWFmb3JvPC90aXRsZT4NCiAgICA8dmVuZG9yPmFsZXhhPC92ZW5kb3I+DQogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9IkphdmFGWEFwcGxpY2F0aW9uU2VtYWZvcm8uamFyIiBzaXplPSI3MTc2NiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGphdmFmeC1zd3QuamFyIiBzaXplPSIzNzA4MiIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGphdmFmeC5iYXNlLmphciIgc2l6ZT0iNzU2NTY2IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamF2YWZ4LmNvbnRyb2xzLmphciIgc2l6ZT0iMjYwNTgyOSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGphdmFmeC5meG1sLmphciIgc2l6ZT0iMTMwNjA1IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamF2YWZ4LmdyYXBoaWNzLmphciIgc2l6ZT0iNDM2OTg0OSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGphdmFmeC5tZWRpYS5qYXIiIHNpemU9IjI4NDYxNSIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGphdmFmeC5zd2luZy5qYXIiIHNpemU9IjkxMTY1IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcamF2YWZ4LndlYi5qYXIiIHNpemU9IjcyODUxOCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXG1zc3FsLWpkYmMtMTIuOC4xLmpyZTgtamF2YWRvYy5qYXIiIHNpemU9IjEyNjIzMTYiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxtc3NxbC1qZGJjLTEyLjguMS5qcmU4LXNvdXJjZXMuamFyIiBzaXplPSI5ODY4NzMiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgICA8amFyIGhyZWY9ImxpYlxtc3NxbC1qZGJjLTEyLjguMS5qcmU4LmphciIgc2l6ZT0iMTQ2NDA2OCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9IkNydWNlU2VtYWZvcm9zRlgiICBuYW1lPSJKYXZhRlhBcHBsaWNhdGlvblNlbWFmb3JvIiAvPg0KICA8dXBkYXRlIGNoZWNrPSJhbHdheXMiLz4NCjwvam5scD4NCg=='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedCruceSemaforosFX);
+</script>
+
+</head><body>
+<h2>Test page for <b>JavaFXApplicationSemaforo</b></h2>
+  <b>Webstart:</b> <a href='JavaFXApplicationSemaforo.jnlp' onclick="return launchApplication('JavaFXApplicationSemaforo.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
